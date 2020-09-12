@@ -1,18 +1,4 @@
 
-# def line(katz_deli)
-#   if katz_deli == 0 
-#   puts "The line is currently empty."
-#   end
-# end
-
-# # def take_a_number(katz_deli,"name")
-  
-# # end
-
-# # def now_serving
-
-# # end
-
 def line(katz_deli)
   phrase = "The line is currently: "
   if katz_deli.length > 0 
@@ -24,7 +10,6 @@ def line(katz_deli)
     puts "The line is currently empty."
   end
 end
-
 
 def take_a_number(katz_deli, name)
 	katz_deli.push(name)
